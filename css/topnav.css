@@ -1,0 +1,23 @@
+/* Style the top navigation bar */
+.topnav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  overflow: hidden;
+  background-color: #04293A;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  color: #ECB365;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.topnav a:hover {
+background-color: #064663;
+border-radius: 25px;
+}

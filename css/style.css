@@ -3,40 +3,29 @@
 }
 
 body {
-  font-family: 'Catamaran', sans-serif;
+  background-color: #041C32;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: FF Uberhand;
+
+  /* font-family: 'Catamaran', sans-serif; */
   padding: 10px;
-  background: #21201E;
-  color: #A8A8A8;
+  color: #ECB365;
 }
 
-/* Header/Blog Title */
-.header {
-  padding: 25px;
+.links {
+  background-color: #04293A;
+  border-radius: 25px;
+  color: #ECB365;
   text-align: center;
-  background: #2E3033;
-  border-radius: 25px;
+  text-decoration: none;
+  padding: 10px;
 }
 
-.header h1 {
-  font-size: 50px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: #2E3033;
-  padding: 20px;
-  margin-top: 20px;
+.links:hover {
+  background-color: #064663;
   border-radius: 25px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #2E3033;
-  margin-top:20px;
-  border-radius: 25px;
-}
+  }
 
 /* Clear floats after the columns */
 .row:after {
@@ -45,17 +34,9 @@ body {
   clear: both;
 }
 
-.button {
-  background-color: #ddd;
-  border: none;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
+.center {
+  width: 33.3334%;
+  min-width: 125px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
