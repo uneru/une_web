@@ -9,6 +9,10 @@ body {
   /* font-family: 'Catamaran', sans-serif; */
   padding: 10px;
   color: #ECB365;
+  
+  min-height: 98.8vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .links {

@@ -16,7 +16,8 @@
 .card {
     background-color: #04293A;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 20px;    
+    margin-bottom: 20px;
     border-radius: 25px;
   }
     
