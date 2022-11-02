@@ -4,15 +4,12 @@
 
 body {
   background-color: #041C32;
-  font-family: FF Uberhand;
-
-  /* font-family: 'Catamaran', sans-serif; */
-  padding: 10px;
-  color: #ECB365;
-  
-  min-height: 98.8vh;
+  font-family: Pro-Medium;
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  min-height: 100vh;
+  color: #ECB365;
 }
 
 .links {
@@ -29,17 +26,6 @@ body {
   border-radius: 25px;
   }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.center {
-  width: 33.3334%;
-  min-width: 125px;
-}
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
